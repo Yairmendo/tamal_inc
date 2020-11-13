@@ -1,0 +1,8 @@
+requests
+jupyter
+lxml
+pandas
+matplotlib
+seaborn
+numpy
+lxml
