@@ -1,1 +1,14 @@
 data/
+
+### VisualStudioCode template
+.vscode/
+
+# Environments
+.venv
+venv/
+ENV/
+
+# pyenv
+.python-version
+
+tamalinc_up.sh
