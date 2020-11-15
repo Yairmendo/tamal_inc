@@ -1,6 +1,6 @@
 # Tamal_inc
 
-##Plateamiento
+## Plateamiento
 
 Tortas De Tamal Inc. necesita integrar fuentes de datos que describan sus ventas en el mercado. La información vive en su Data Lake y usted deberá homologarlas para exponerlas en un cubo de datos en formato estrella que permita a sus empleados generar reportes. El data lake está dividido en 2 zonas que almacenan los datos con base en su madurez. Las zonas del data lake son:
 ●Crudo:
@@ -26,7 +26,7 @@ competencia. En el dataset se registran las ventas en el punto de venta de los
 productos de Tamal Inc y además los precios de sus productos y la competencia.
 Estos datos se actualizan de forma semanal y contienen información del último mes en cada actualización. TeInvento.inc comparte la información para ingestar al data lake en formato xlsx.
 
-###Requirements
+### Requirements
 
 Python 3.x, cualquier versión de  pip, y virtualenv (o venv)
 
