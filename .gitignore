@@ -1,0 +1,23 @@
+#data
+tamales_inc/
+teinvento_inc/
+crudo/
+procesado/
+
+#Jupyter notebook
+.ipynb_checkpoints
+
+### VisualStudioCode template
+.vscode/
+
+# Environments
+.venv
+venv/
+ENV/
+
+# pyenv
+.python-version
+
+# envieroment_set_up
+tamalinc_up.sh
+
