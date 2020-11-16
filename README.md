@@ -3,6 +3,7 @@
 ## Plateamiento
 
 Tortas De Tamal Inc. necesita integrar fuentes de datos que describan sus ventas en el mercado. La información vive en su Data Lake y usted deberá homologarlas para exponerlas en un cubo de datos en formato estrella que permita a sus empleados generar reportes. El data lake está dividido en 2 zonas que almacenan los datos con base en su madurez. Las zonas del data lake son:
+
 ●Crudo:
 Los datos se guardan en los archivos de entrada de una forma ordenada y que
 permite tener trazabilidad respetando formatos y estructuras de datos originales.
