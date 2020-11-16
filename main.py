@@ -23,10 +23,10 @@ def extract():
     print('extracting files from tamales_inc db.....')
     try:
         for name in file_names_tamales_inc:
-            file_path_tamales_inc = (BASE_DIR+
-                                     "/tamales_inc/ventas_mensuales_tamales_inc/mx/"
-                                     +report_date+'/csv/'+name+'/ventas_mensuales_'
-                                     +name+".csv")
+            file_path_tamales_inc = (BASE_DIR +
+                                     "/tamales_inc/ventas_mensuales_tamales_inc/mx/" +
+                                     report_date + '/csv/' + name + '/ventas_mensuales_' +
+                                     name + ".csv")
 
             if name == "Centro":
                 df = pd.read_csv(file_path_tamales_inc, header = None, 
@@ -55,6 +55,7 @@ def extract():
 
 def run():
     extract()
+
 
 if __name__ == "__main__":
     run()
